@@ -1,4 +1,45 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    -moz-user-select: none;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#click-pane {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#value {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+#upgrade-pane {
+    flex: 0 1 400px;
+    /* overflow-y: scroll; */
+}
+
+.increaser {
+    margin: 10px;
+    display: flex;
+}
+
+.name-cost {
+    flex: 1 1;
+}
+
+.divider {
+    flex: 0 0 2px;
+    background-color: #919191;
 }
