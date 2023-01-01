@@ -19,6 +19,6 @@
   "homepage": "https://github.com/JoeySuttonPreece/hyperclicker#readme",
   "dependencies": {
     "hyperapp": "^2.0.0-beta.18",
-    "parcel": "^1.12.3"
+    "parcel": "^2.8.2"
   }
 }
